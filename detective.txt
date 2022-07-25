@@ -1,0 +1,9 @@
+Episode 1: The murderer is Miss Scarlet, as there are no changes made to the murderer.
+Episode 2: There will be an error, as it is trying to change a murderer which is initialised as a const variable.
+Episode 3: The First Verdict is Mrs. Peacock, as murderer is changed to Mrs Peacock in declareMurderer.  The second verdict is Proffessor Plum as murderer goes back to Professor Plum after declareMurderer finishes.
+Episode 4: The suspects are Miss Scarlet, Professor Plum, and Colonel Mustard as suspectThree is changed to Colonel Mustard in declareAllSuspects.  Suspect three is Mrs. Peacock as murderer goes back to Mrs. Peacock after declareAllSuspects finishes.
+Episode 5: The weapon is the revolver as since weapon is stored in an object, it can be changed.
+Episode 6: The murderer is Mrs. White, murderer gets changed in plotTwist, but it is in the scope of the entire program.
+Episode 7: The murderer is Mr. Green, as murderer in plotTwist is let, so it goes back to Mr. Green from changeMurderer, as it is not in the scope of the rest of the function.
+Episode 8: The weapon is the candle stick, as since it is stored in an object, it can be changed.
+Episode 9: The murderer is Professor Plum, as the if statement that changes the murderer does not have the scope of the entire program.
